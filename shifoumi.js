@@ -19,7 +19,7 @@ choixPossibles.forEach(choixPossible => choixPossible.addEventListener('click', 
   joueur = e.target.id ;
   
 //Ajout de l'image qui correspond au choix du joueur
-  blocJoueur.innerHTML = `<img src="${joueur}.png">`
+  blocJoueur.innerHTML = `<img src="images/${joueur}.png">`
 
 //Affiche le message resultat
   blocResultat.style.visibility = 'visible';
@@ -64,7 +64,7 @@ function nombreAleatoire() {
     ordinateur = CISEAUX
   }
 */
-  blocOrdinateur.innerHTML = `<img src="${ordinateur}.png">`
+  blocOrdinateur.innerHTML = `<img src="images/${ordinateur}.png">`
 }
 
 
@@ -92,6 +92,7 @@ reset.addEventListener('click', () => {
   contenantScoreOrdinateur.textContent = 0;
   contenantScoreJoueur.textContent = 0;
   blocResultat.style.visibility = 'hidden';
+ 
   
 });
 
