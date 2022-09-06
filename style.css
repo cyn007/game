@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Audiowide', cursive;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #5e7ea2;
+  font-family: 'Audiowide', cursive;
+	text-align: center;
+  width: auto;
+  height : 900px;
+}
+
+main {
+box-shadow: -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+-webkit-box-shadow: -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+-moz-box-shadow : -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+}
+
+.shifoumi{
+  padding: 20px;
+	font-size: 100px;
+	line-height: 100px;
+	color: #5e7ea2;
+	font-weight: 700;
+  text-transform: uppercase;
+	text-shadow: -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+	-webkit-text-shadow: -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.choix-jeu{
+  display : flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex : auto;
+  align-items: center;
+  width : 80vh;
+  padding : 25px;
+  border-radius: 20px;
+  background: #5e7ea2;
+}
+
+.sc{
+  display: flex;
+  flex-direction: row;
+  width : 100%;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.with-margin{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size : 1em;
+  box-shadow: inset -5px 5px 12px rgba(0,0,0,0.35), 105px -5px 12px rgba(79, 120, 167, 0.5)
+}
+
+img {
+  width : 150px;
+  height: 75px;
+}
+
+.bouttons {
+  border: none;
+  border-radius: 5000px;
+  padding: 1em;
+  background:  #6282a6;
+  margin: 1.5em;
+  color:  #fff;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 8px 0 rgba(0, 0, 0, 0), inset -3px -3px 8px 0 rgba(155, 196, 242, 0),
+		6px 6px 18px 0 rgba(0, 0, 0, 0.35), -6px -6px 18px 0 rgba(155, 196, 242, 0.5);
+	-webkit-box-shadow: inset 2px 2px 8px 0 rgba(0, 0, 0, 0), inset -3px -3px 8px 0 rgba(155, 196, 242, 0),
+		6px 6px 18px 0 rgba(0, 0, 0, 0.35), -6px -6px 18px 0 rgba(155, 196, 242, 0.5);
+  -moz-box-shadow:inset 2px 2px 8px 0 rgba(0, 0, 0, 0), inset -3px -3px 8px 0 rgba(155, 196, 242, 0),
+  6px 6px 18px 0 rgba(0, 0, 0, 0.35), -6px -6px 18px 0 rgba(155, 196, 242, 0.5);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.bouttons:hover{
+  transition: all 0.3s ease-in-out;
+  box-shadow: inset -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  -webkit-box-shadow: inset -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  -moz-box-shadow : inset -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+}
+
+#resultat{
+  color : #ede9e1;
+  margin-top: 5%;
+}
+
+#btn-reset{
+  border: none;
+  border-radius: 5000px;
+  padding: 1em;
+  background: #fff;
+  margin-bottom: 2em;
+  color: #6282a6;
+  width: auto;
+  box-shadow:-5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  -webkit-box-shadow:5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  -moz-box-shadow : -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  margin-top: 1em;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+#btn-reset:hover{
+  box-shadow: inset -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  -webkit-box-shadow: inset -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  -moz-box-shadow : inset -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(148, 190, 238, 0.5);
+  color : #fff;
+  background: #6282a6;
+}
+
+
+/* Responsive CSS - MEDIA QUERIES*/
+
+  @media screen and (max-width: 650px) {
+    body{
+    width: auto;
+    height: auto;
+    }
+
+    main {
+      width : auto;
+      box-shadow: -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+      -webkit-box-shadow: -5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+      -moz-box-shadow :-5px 5px 12px rgba(0,0,0,0.35), 5px -5px 12px rgba(155, 196, 242,0.5);
+      }
+      
+    .shifoumi{
+    padding: 10px;
+    font-size: 70px;
+    }
+
+    .sc{
+      margin-top: 2%;
+      margin-bottom: 7%;
+      font-size : 0.8em;
+      text-transform: uppercase;
+      }
+
+    .choix-jeu{
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+    }
+
+  }
+
+  @media screen and (min-width: 375px) and  (max-width: 649px) {
+    body{
+      width:auto;
+      height : auto;
+      }
+
+      main{
+        width:auto;
+        height: auto;
+      }
+
+      .shifoumi{
+      margin-top: 0;
+      font-size: 60px;
+      }
+
+      .sc{
+        margin-top: 5%;
+        margin-bottom: 7%;
+        font-size : 0.6em;
+        text-transform: uppercase;
+        }
+  
+      .choix-jeu{
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      }
+
+      .with-margin{
+        width : auto;
+        margin-left : 0;
+      }
+
+      img {
+        width : 100px;
+        height: 65px;       
+      }
+
+      }
+
+      
+  
